@@ -1,4 +1,4 @@
-# SoulCode_Embraer
+# SoulCode | Embraer SOCIAL TECH CAREERS 
 
 Projeto Final: Dashboard de Vendas B2B
 
@@ -59,6 +59,24 @@ Google Cloud Storage:
 
 Carregamento dos dados transformados no Google Cloud Storage, criando novos arquivos e pastas para dados tratados.
 
+Etapa 4: Visualização dos Dados
+
+Power BI:
+
+Criação do dashboard utilizando o Power BI, com base nos dados transformados e carregados no Google BigQuery.
+
+Visualização de dados para os seguintes pontos de análise:
+
+Volume total de vendas por região.
+
+Receita total por setor.
+
+Quantidade de vendas por categoria de produto.
+
+Desempenho individual dos vendedores (valor total vendido).
+
+Produtos mais vendidos.
+
 Tecnologias Utilizadas
 
 Google Cloud Platform
@@ -73,12 +91,14 @@ Google Colab
 
 Python
 
-Próximos Passos
+Microsoft Power BI
 
-Criação do dashboard de visualização de dados utilizando ferramentas como Google Looker Studio ou outras opções, com base nos dados processados e carregados.
+Próximos Passos
 
 Análise dos resultados no dashboard e elaboração de insights e recomendações para o negócio.
 
+Possível aprimoramento do dashboard com novos indicadores e funcionalidades.
+
 Considerações Finais
 
-Este projeto visa demonstrar a capacidade de utilizar os recursos do Google Cloud para o armazenamento, processamento e análise de dados de vendas B2B. Além disso, a documentação e o código desenvolvidos representam um aprendizado prático sobre os conceitos de Data Analytics.
+Este projeto demonstra a capacidade de utilizar os recursos do Google Cloud para o armazenamento, processamento e análise de dados de vendas B2B, bem como a criação de visualizações com o Power BI. A documentação e o código desenvolvidos representam um aprendizado prático sobre os conceitos de Data Analytics e Business Intelligence.
