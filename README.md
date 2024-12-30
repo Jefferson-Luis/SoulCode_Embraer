@@ -1,10 +1,8 @@
-
-
-
-
 # Projeto Final: Dashboard de Vendas B2B | SoulCode Embraer Social Tech Careers
+#DataAnalytics #BusinessIntelligence #GoogleCloud #PowerBI #Python #ETL #BigQuery
 
 ![aviao](https://github.com/user-attachments/assets/4192fa75-e86f-4f58-88a6-792d65c9ab2a)
+
 
 ## Visão Geral
 
@@ -92,4 +90,5 @@ Este projeto demonstra a capacidade de utilizar os recursos do Google Cloud para
 
 A experiência com Python para a automatização do processo ETL e o uso do Power BI para visualização e análise de resultados mostra que essas ferramentas são ideais para um profissional que deseja lidar com dados e apresentar informações de forma clara e concisa.
 
+#AnáliseDeDados #DataVisualization #CloudComputing #SalesAnalytics #PythonProgramming #PowerBI #Embraer #SoulCode 
 https://www.linkedin.com/in/jefferson-alveti/
