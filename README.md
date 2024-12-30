@@ -1,18 +1,84 @@
 # SoulCode_Embraer
-projetoB2B
+
 Projeto Final: Dashboard de Vendas B2B
-O objetivo deste projeto é desenvolver um dashboard simples que permita analisar informações básicas sobre vendas B2B. O projeto deverá contemplar os seguintes pontos de análise:
-Volume total de vendas por região.
-Receita total por setor.
-Quantidade de vendas por categoria de produto.
-Desempenho individual dos vendedores (valor total vendido).
-Produtos mais vendidos.
+
+Visão Geral
+
+Este projeto tem como objetivo desenvolver um dashboard simples e intuitivo para análise de dados de vendas B2B (Business-to-Business). Através deste dashboard, serão explorados diversos aspectos das vendas, como volume total por região, receita por setor, quantidade de vendas por categoria de produto, desempenho individual dos vendedores e os produtos mais vendidos.
+
+Etapas do Projeto
 Etapa 1: Armazenamento Inicial
-O grupo deverá criar um bucket no Google Cloud Storage e armazenar a base de dados fornecida em uma pasta chamada "dados brutos". Esse bucket será a fonte inicial de armazenamento, garantindo a organização e acessibilidade dos dados originais.
-Além disso, o grupo deverá criar uma instância de MySQL no Google Cloud SQL e transferir os dados para um banco de dados relacional. Esse banco será utilizado para explorar e manipular os dados de forma estruturada. É imprescindível que o grupo entregue, como parte do projeto, o Modelo Entidade-Relacionamento (MER) que represente a estrutura da base de dados armazenada no banco.
+
+Google Cloud Storage:
+
+Criação de um bucket no Google Cloud Storage para o armazenamento da base de dados fornecida.
+
+Organização dos dados brutos em uma pasta nomeada "dados brutos" dentro do bucket.
+
+Google Cloud SQL (MySQL):
+
+Criação de uma instância do MySQL no Google Cloud SQL.
+
+Transferência dos dados do Google Cloud Storage para o banco de dados MySQL.
+
+Modelo Entidade-Relacionamento (MER):
+
+Criação e entrega do Modelo Entidade-Relacionamento (MER) que representa a estrutura da base de dados no MySQL.
+
 Etapa 2: Processamento de Dados no Google Colab
-Para esta etapa, o grupo deverá criar um notebook no Google Colab para realizar o processo de Extração, Transformação e Carga (ETL). A extração dos dados poderá ser feita diretamente do bucket no Google Cloud Storage, do banco relacional no Google Cloud SQL, ou utilizando ambos os métodos, demonstrando o conhecimento das ferramentas.
-Durante o processo de transformação, é necessário que o grupo realize as manipulações adequadas nos dados, preparando-os para atender às perguntas do case. Isso pode incluir o tratamento de valores ausentes, a criação de novas colunas para análises específicas e a consolidação de informações em tabelas estruturadas. É essencial que todos os códigos sejam bem documentados, com comentários claros explicando cada etapa do processo, para facilitar a avaliação.
+
+Google Colab Notebook:
+
+Desenvolvimento de um notebook no Google Colab para a realização do processo de Extração, Transformação e Carga (ETL).
+
+Extração dos dados, podendo ser feita a partir do bucket no Google Cloud Storage, do banco relacional no Google Cloud SQL ou ambos.
+
+Transformação de Dados:
+
+Manipulação dos dados para atender às perguntas do case, incluindo:
+
+Tratamento de valores ausentes.
+
+Criação de novas colunas.
+
+Consolidação de informações em tabelas estruturadas.
+
+Documentação do Código:
+
+Documentação clara e concisa de todo o código, com comentários explicativos em cada etapa do processo.
+
 Etapa 3: Carregamento de Dados Tratados
-Após concluir a transformação dos dados, o grupo deverá realizar o carregamento (Load) dos dados tratados em dois destinos: o Google BigQuery e o Google Cloud Storage.
-Durante o carregamento, o grupo poderá criar novas tabelas e/ou colunas baseadas em análises e agregações realizadas anteriormente. Isso permitirá uma visualização mais direta e eficiente dos resultados na etapa seguinte.
+
+Google BigQuery:
+
+Carregamento dos dados transformados no Google BigQuery.
+
+Criação de novas tabelas e/ou colunas baseadas em análises e agregações realizadas no Google Colab.
+
+Google Cloud Storage:
+
+Carregamento dos dados transformados no Google Cloud Storage, criando novos arquivos e pastas para dados tratados.
+
+Tecnologias Utilizadas
+
+Google Cloud Platform
+
+Google Cloud Storage
+
+Google Cloud SQL (MySQL)
+
+Google BigQuery
+
+Google Colab
+
+Python
+
+Próximos Passos
+
+Criação do dashboard de visualização de dados utilizando ferramentas como Google Looker Studio ou outras opções, com base nos dados processados e carregados.
+
+Análise dos resultados no dashboard e elaboração de insights e recomendações para o negócio.
+
+Considerações Finais
+
+Este projeto visa demonstrar a capacidade de utilizar os recursos do Google Cloud para o armazenamento, processamento e análise de dados de vendas B2B. Além disso, a documentação e o código desenvolvidos representam um aprendizado prático sobre os conceitos de Data Analytics.
